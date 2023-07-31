@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(45deg, #00629b, #73a7c5);
+  animation: animateBackground 20s linear infinite;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  color: #174459;
+  font-size: 22px;
+}
+
+h2 {
+  color: #174459;
+  font-size: 20px;
+}
+
+p {
+  color: #202b30;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #202b30;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 00px;
+  padding: 0px 10px;
+  font-size: 25px;
+  color: #237ebb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  padding: 10px;
+}
+
+.card-white {
+  background: radial-gradient(circle at 50px 75px, #cbf5ff, #ffdbfd);
+  border-color: #b8e3ff;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  display: block;
+  width: 100px;
+  background-color: #237ebb;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 15px auto;
+  overflow: hidden;
+  position: relative; /* Required for adding box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition */
+}
+
+.btn-blue:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow on hover */
+}
+
+li:hover {
+  transform: scale(1.4); /* Scale up by 10% on hover */
+}
+
+#lower-card {
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
